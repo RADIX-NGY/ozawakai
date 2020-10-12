@@ -1,0 +1,53 @@
+/* Printing */
+@media print{
+
+
+	#header{position: absolute;}
+	#pagetop{display:none;}
+
+	.container,.container-fluid{padding:0 15px;min-width:1px !important;}
+
+	#header > .container-fluid{padding:0 15px;}
+
+	.navbar-header{width: 1050px;}
+
+
+
+
+
+	.ap{margin-top:0;padding-top:0;}
+
+	.pbb,.pba{display: block;}
+
+	.pbb{page-break-before:always;}
+	.pba{page-break-after:always;}
+
+	hr.pbb,hr.pba{border-color: transparent;margin: 1px 0;}
+
+	.er-print-21by9:before{padding-top:42.857143%;}
+	.er-print-16by9:before{padding-top:56.25%;}
+	.er-print-4by3:before{padding-top:75%;}
+	.er-print-3by2:before{padding-top:66.6666666666%;}
+	.er-print-2by1:before{padding-top:50%;}
+	.er-print-1by1:before{padding-top:100%;}
+
+	.order-print-1{order:1;}
+	.order-print-2{order:2;}
+	.order-print-3{order:3;}
+	.order-print-4{order:4;}
+	.order-print-5{order:5;}
+	.order-print-6{order:6;}
+	.order-print-7{order:7;}
+	.order-print-8{order:8;}
+	.order-print-9{order:9;}
+	.order-print-10{order:10;}
+	.order-print-11{order:11;}
+	.order-print-12{order:12;}
+
+
+
+/*	.navbar-nav {width: 700px;margin-left: -700px;}*/
+
+
+}
+
